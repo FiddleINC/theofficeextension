@@ -1,4 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The Office US Extension
+
+This extension shows a random line from the The Office US and shows it on your New Tab Page.
+
+1. Clone the Repo
+2. `npm install` for installing the npm modules
+3. `npm run build` to build the extension
+4. Add the build folder on the `chrome://extensions` and open a new tab
+
+### ToDo
+
+- [ ] Add and GIF in the Background
 
 ## Available Scripts
 
