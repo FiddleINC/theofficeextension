@@ -35,9 +35,6 @@
   border-radius: 50%;
 }
 
-.quote {
-  align-items: initial;
-  font-size:50px;
-  line-height:0.6em;
-  opacity:0.2
+.footer {
+  color: white;
 }

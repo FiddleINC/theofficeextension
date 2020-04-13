@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState, useEffect } from 'react';
 import quotes from 'the-office';
 import './App.css';
@@ -38,7 +39,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<div className="App-header w3-display-container">
+			<div className="App-header">
 				<div className="w3-container">
 					<h2 className="w3-panel w3-leftbar w3-xxlarge">{quote}</h2>
 					<h3>- {character}</h3>
@@ -49,7 +50,7 @@ function App() {
 						</i>
 					</h5>
 				</div>
-				<div className="footer w3- w3-display-container w3-display-bottomright">
+				<div className="footer w3-display-container w3-display-bottomright">
 					<span className="App-link">
 						<b>Made by Prachurjya Biswas</b>
 					</span>

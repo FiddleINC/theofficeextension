@@ -5,7 +5,8 @@ This extension shows a random line from the The Office US and shows it on your N
 1. Clone the Repo
 2. `npm install` for installing the npm modules
 3. `npm run build` to build the extension
-4. Add the build folder on the `chrome://extensions` and open a new tab
+4. Turn on the Developer Mode on `chrome://extensions`
+4. Click on `Load Unpacked` and add the build folder.
 
 ### ToDo
 
