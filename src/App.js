@@ -38,15 +38,26 @@ function App() {
 
 	return (
 		<div className="App">
-			<div className="App-header">
+			<div className="App-header w3-display-container">
 				<div className="w3-container">
-					<h3 className="w3-panel w3-leftbar w3-xxlarge">{quote}</h3>
-					<h4>- {character}</h4>
-					<p>
+					<h2 className="w3-panel w3-leftbar w3-xxlarge">{quote}</h2>
+					<h3>- {character}</h3>
+					<br />
+					<h5>
 						<i>
 							Season {season} : {episode}
 						</i>
-					</p>
+					</h5>
+				</div>
+				<div className="footer w3- w3-display-container w3-display-bottomright">
+					<span className="App-link">
+						<b>Made by Prachurjya Biswas</b>
+					</span>
+					<br />
+					<a href="https://facebook.com/prabiswas17" className="fa fa-facebook" />
+					<a href="https://twitter.com/fiddleinc" className="fa fa-twitter" />
+					<a href="https://instagram.com/fiddle_inc" className="fa fa-instagram" />
+					<a href="https://github.com/fiddleinc" className="fa fa-github" />
 				</div>
 			</div>
 		</div>
